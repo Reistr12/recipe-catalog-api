@@ -3,10 +3,10 @@ import { CreateRecipeController } from './controllers/recipes/create-recipe.cont
 import { ShowAllRecipesController } from './controllers/recipes/get-all-recipe.controller';
 import { ShowRecipeByIdController } from './controllers/recipes/get-by-id-recipe.controller';
 import { CreateRecipeUseCase } from 'src/application/usecases/recipes/create-recipe.usecase';
-import { GetRecipeByIdUseCase } from 'src/application/usecases/recipes/get-by-id-recipe..usecase';
 import { GetAllRecipesUseCase } from 'src/application/usecases/recipes/get-all-recipe.usecase';
-import { IRecipeRepository } from 'src/domain/repositories/irecipe.repository';
+import { IRecipeRepository } from '@/domain/repositories/irecipe.repository';
 import { RecipeRepository } from 'src/infrastructure/repositories/recipe.repository';
+import { GetRecipeByIdUseCase } from '@/application/usecases/recipes/get-by-id-recipe.usecase';
 
 @Module({
   imports: [],

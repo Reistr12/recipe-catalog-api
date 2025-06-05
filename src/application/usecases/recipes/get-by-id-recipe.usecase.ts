@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
 import { RecipeEntity } from 'src/domain/entities/recipe.entity';
-import { IRecipeRepository } from 'src/domain/repositories/irecipe.repository';
+import { IRecipeRepository } from '@/domain/repositories/irecipe.repository';
 
 @Injectable()
 export class GetRecipeByIdUseCase {
