@@ -13,7 +13,7 @@ export class CreateRecipeDto {
 
   @IsString()
   @MinLength(10, {
-    message: 'Instructions must be at least 10 characters long',
+    message: 'Descriptions must be at least 10 characters long',
   })
   description: string;
 }
